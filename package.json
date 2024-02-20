@@ -1,0 +1,26 @@
+{
+  "name": "winterproject",
+  "version": "1.0.0",
+  "description": "winterproject",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KimEunSeop/winterproject.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Eseop",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KimEunSeop/winterproject/issues"
+  },
+  "homepage": "https://github.com/KimEunSeop/winterproject#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.9.1"
+  }
+}
