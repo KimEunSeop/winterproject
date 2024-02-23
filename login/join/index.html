@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
   <link rel="stylesheet" href="../../css/join.css">
 </head>
-
 <body>
-  <p id="ex">회원가입
-  </p>
-  <form action="서버페이지주소" id = "form1">
+  <p id="ex">회원가입</p>
+  <form id="form1">
     <div id="login_frame">
       <div id="login_input">
         <div>
@@ -23,19 +20,17 @@
         </div>
         <div>
           <p id="pass_ex">비밀번호</p>
-          <input type="text" id="password" placeholder="Enter your password" />
+          <input type="password" id="password" placeholder="Enter your password" />
         </div>
         <div>
           <p id="rptpass_ex">비밀번호(확인)</p>
-          <input type="text" id="rptpass" placeholder="Enter your password" />
+          <input type="password" id="rptpass" placeholder="Enter your password" />
         </div>
       </div>
-      <input type="submit" id="make" value="만들기">
+      <button id="make">만들기</button>
     </div>
   </form>
-  
+
   <script src="../../js/join.js"></script>
-
 </body>
-
 </html>
