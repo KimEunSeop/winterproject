@@ -10,28 +10,32 @@
 <body>
   <p id="ex">회원가입
   </p>
-  <div id="login_frame">
-    <div id="login_input">
-      <div>
-        <p id="name_ex">이름</p>
-        <input type="text" id="user_name" placeholder="Enter name" />
+  <form action="서버페이지주소" id = "form1">
+    <div id="login_frame">
+      <div id="login_input">
+        <div>
+          <p id="name_ex">이름</p>
+          <input type="text" id="user_name" placeholder="Enter name" />
+        </div>
+        <div id="pass">
+          <p id="id_ex">아이디</p>
+          <input type="text" id="id" placeholder="Enter your id" />
+        </div>
+        <div>
+          <p id="pass_ex">비밀번호</p>
+          <input type="text" id="password" placeholder="Enter your password" />
+        </div>
+        <div>
+          <p id="rptpass_ex">비밀번호(확인)</p>
+          <input type="text" id="rptpass" placeholder="Enter your password" />
+        </div>
       </div>
-      <div id="pass">
-        <p id="id_ex">아이디</p>
-        <input type="text" id="id" placeholder="Enter your id" />
-      </div>
-      <div>
-        <p id="pass_ex">비밀번호</p>
-        <input type="text" id="password" placeholder="Enter your password" />
-      </div>
-      <div>
-        <p id="rptpass_ex">비밀번호(확인)</p>
-        <input type="text" id="rptpass" placeholder="Enter your password" />
-      </div>
+      <input type="submit" id="make" value="만들기">
     </div>
-    <input type="button" id="make" value="만들기">
-  </div>
-  <script src="./jss.js"></script>
+  </form>
+  
+  <script src="../../js/join.js"></script>
+
 </body>
 
 </html>
