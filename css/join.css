@@ -1,0 +1,15 @@
+#login_frame {
+  border: 2px solid blue;
+  margin-left: 20%;
+  margin-right: 20%;
+  /* margin: ; */
+}
+
+#login_input{
+  margin-left: 35%;
+  margin-right: 40%;
+}
+#ex {
+  /* align: center; */
+  text-align: center;
+}
